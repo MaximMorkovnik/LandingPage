@@ -1,7 +1,5 @@
-![Иллюстрация к проекту](https://github.com/MaximMorkovnik/LandingPage/img/logo.jpg)
-
-![](img/logo.jpg)
+![WAYUP](img/logo.jpg)
 
 <h1>Landing Page</h1>
 
-[**<h3>Landing Page -><h3>**](https://maximmorkovnik.github.io/LandingPage/)
+[**<h3>Landing Page --><h3>**](https://maximmorkovnik.github.io/LandingPage/)
