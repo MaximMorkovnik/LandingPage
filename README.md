@@ -1,5 +1,5 @@
 ![](logo.jpg)
 
-<h3>Landing Page</h3>
+<h2>Landing Page</h2>
 
-[**Landing Page ->**](https://maximmorkovnik.github.io/LandingPage/)
+[**<h3>Landing Page -><h3>**](https://maximmorkovnik.github.io/LandingPage/)
