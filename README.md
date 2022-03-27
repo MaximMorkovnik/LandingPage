@@ -1,4 +1,4 @@
-![WAYUP](logo.jpg)
+(logo.jpg)
 
 <h3>Landing Page</h3>
 
