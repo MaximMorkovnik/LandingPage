@@ -1,3 +1,3 @@
 <h3>Landing Page</h3>
 
-[**Landing Page ->**](https://landing_page.github.io/)
+[**Landing Page ->**](https://maximmorkovnik.github.io/LandingPage/)
