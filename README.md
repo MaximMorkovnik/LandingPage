@@ -1,4 +1,6 @@
-![](logo.jpg)
+![Иллюстрация к проекту](https://github.com/MaximMorkovnik/LandingPage/img/logo.jpg)
+
+![](img/logo.jpg)
 
 <h1>Landing Page</h1>
 
