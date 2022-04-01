@@ -1,4 +1,4 @@
-[**<h3>Landing Page --><h3>**](https://maximmorkovnik.github.io/LandingPage/)
+[**<h3>Landing Page --><h3>**](https://wayup.in/)
   
 <h1>Landing Page</h1>
 
