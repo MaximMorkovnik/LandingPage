@@ -148,7 +148,7 @@ p {
     /* сверху | горизонтально | снизу */
 }
 
-.input {
+.form__input {
     width: 100%;
     border: 1px solid #bbbbbb;
     font-size: 15px;
@@ -159,7 +159,7 @@ p {
     margin-bottom: 15px;
 }
 
-.btn-form {
+.form__button {
     width: 100%;
     border: 0;
     cursor: pointer;
