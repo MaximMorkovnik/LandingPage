@@ -3,17 +3,10 @@ body {
     font-size: 16px;
     padding: 0;
     margin: 0;
+    min-width: 320px;
 }
 
-div,
-p,
-input,
-button,
-form,
-span,
-a,
-ul,
-li {
+* {
     box-sizing: border-box;
 }
 
@@ -178,82 +171,4 @@ p {
 
 .credits {
     margin: 0 auto;
-}
-
-
-/*Responsive*/
-
-/* 992px - 1200px */
-@media screen and (max-width: 1200px) {
-    .container {
-        width: 960px;
-    }
-
-    .desktop {
-        width: 60%;
-    }
-
-    .p {
-        width: auto;
-    }
-}
-
-/* 768px - 992px */
-@media screen and (max-width: 992px) {
-    .container {
-        width: 720px;
-    }
-
-    .wrapper {
-        flex-direction: column;
-        margin-top: 100px;
-    }
-
-    .offer {
-        width: 100%;
-    }
-
-    .intro {
-        width: auto;
-    }
-
-    .desktop {
-        display: block;
-        width: 549px;
-        margin: 72px auto 0;
-    }
-
-    .skills {
-        flex-direction: column;
-    }
-
-    .skill {
-        width: auto;
-        margin-bottom: 30px;
-    }
-
-}
-
-/* 576px - 768px */
-@media screen and (max-width: 768px) {
-    .container {
-        width: 540px;
-    }
-
-    .desktop {
-        width: 100%;
-    }
-
-    .btn {
-        width: 100%;
-    }
-
-}
-
-/* 320px - 576px */
-@media screen and (max-width: 576px) {
-    .container {
-        width: 90%;
-    }
-
 }
