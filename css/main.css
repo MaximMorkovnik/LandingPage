@@ -1,6 +1,13 @@
+:root {
+    --black: #000;
+    --white: #fff;
+    --grey: #bbb;
+}
+
 body {
     font-family: 'Ubuntu', sans-serif;
     font-size: 16px;
+    color: var(--black);
     padding: 0;
     margin: 0;
     min-width: 320px;
@@ -38,7 +45,7 @@ p {
     background: linear-gradient(135deg, rgba(77, 190, 254, 1) 0%, rgba(55, 143, 217, 1) 100%);
     filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#4dbefe', endColorstr='#378fd9', GradientType=1);
     padding-top: 60px;
-    color: #fff;
+    color: var(--white);
 }
 
 .wrapper {
@@ -71,7 +78,7 @@ p {
     font-family: 'Montserrat', sent-serif;
     font-size: 15px;
     background: #ffd429;
-    color: black;
+    color: var(--black);
     display: block;
     width: 220px;
     padding: 19px 0;
@@ -143,7 +150,7 @@ p {
 
 .form__input {
     width: 100%;
-    border: 1px solid #bbbbbb;
+    border: 1px solid var(--grey);
     font-size: 15px;
     font-family: 'Open Sans', sans-serif;
     border-radius: 4px;
@@ -163,7 +170,7 @@ p {
 .footer {
     padding: 55px 0;
     background: #164d7a;
-    color: white;
+    color: var(--white);
     font-size: 14px;
     text-align: center;
     font-family: 'Open Sans', sans-serif;
