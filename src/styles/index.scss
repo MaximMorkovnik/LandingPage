@@ -1,0 +1,184 @@
+@import "_media.scss";
+@import "_normalize.scss";
+
+:root {
+    --black: #000;
+    --white: #fff;
+    --grey: #bbb;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 16px;
+    color: var(--black);
+    padding: 0;
+    margin: 0;
+    min-width: 320px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0;
+}
+
+p {
+    line-height: 1.65em;
+}
+
+.container {
+    width: 1170px;
+    margin: 0 auto;
+}
+
+.header {
+    background: rgba(77, 190, 254, 1);
+    background: -moz-linear-gradient(-45deg, rgba(77, 190, 254, 1) 0%, rgba(55, 143, 217, 1) 100%);
+    background: -webkit-gradient(left top, right bottom, color-stop(0%, rgba(77, 190, 254, 1)), color-stop(100%, rgba(55, 143, 217, 1)));
+    background: -webkit-linear-gradient(-45deg, rgba(77, 190, 254, 1) 0%, rgba(55, 143, 217, 1) 100%);
+    background: -o-linear-gradient(-45deg, rgba(77, 190, 254, 1) 0%, rgba(55, 143, 217, 1) 100%);
+    background: -ms-linear-gradient(-45deg, rgba(77, 190, 254, 1) 0%, rgba(55, 143, 217, 1) 100%);
+    background: linear-gradient(135deg, rgba(77, 190, 254, 1) 0%, rgba(55, 143, 217, 1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#4dbefe', endColorstr='#378fd9', GradientType=1);
+    padding-top: 60px;
+    color: var(--white);
+}
+
+.wrapper {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 72px;
+    margin-top: 7px;
+    align-items: center
+}
+
+.offer {
+    margin-top: -20px;
+}
+
+.title {
+    font-size: 37px;
+
+    span {
+        font-size: 59px;
+    }
+}
+
+.intro {
+    margin-bottom: 40px;
+    width: 400px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.btn {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+    background: #ffd429;
+    color: var(--black);
+    display: block;
+    width: 220px;
+    padding: 19px 0;
+    text-align: center;
+    text-decoration: none;
+    transition: all 0.5s ease;
+
+    &:hover {
+        background: #d9860e;
+    }
+}
+
+.desktop {
+    margin-right: -60px;
+}
+
+.learn {
+    padding-top: 108px;
+    padding-bottom: 120px;
+}
+
+.section-title {
+    font-size: 30px;
+    text-align: center;
+}
+
+.skills {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 70px;
+}
+
+.skill {
+    width: 289px;
+    background: url('../images/icon1.png') no-repeat top;
+    text-align: center;
+
+    &-title {
+        margin-top: 130px;
+        font-family: 'Ubuntu', sans-serif;
+        font-size: 19px;
+    }
+
+    &-text {
+        margin-top: 15px;
+        font-size: 15px;
+    }
+
+    &-free {
+        background: url('../images/icon2.png') no-repeat top;
+    }
+
+    &-change {
+        background: url('../images/icon3.png') no-repeat top;
+    }
+}
+
+.contacts {
+    background: #ecf3f8;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.form {
+    max-width: 340px;
+    margin: 55px auto 0;
+    /* сверху | горизонтально | снизу */
+
+    &__input {
+        width: 100%;
+        border: 1px solid var(--grey);
+        font-size: 15px;
+        font-family: 'Open Sans', sans-serif;
+        border-radius: 4px;
+        height: 45px;
+        padding-left: 24px;
+        margin-bottom: 15px;
+    }
+
+    &__button {
+        width: 100%;
+        border: 0;
+        cursor: pointer;
+        display: inline;
+        font-size: 15px;
+    }
+}
+
+.footer {
+    padding: 55px 0;
+    background: #164d7a;
+    color: var(--white);
+    font-size: 14px;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.credits {
+    margin: 0 auto;
+}
