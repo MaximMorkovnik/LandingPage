@@ -75,7 +75,7 @@ p {
 }
 
 .btn {
-    font-family: 'Montserrat', sent-serif;
+    font-family: 'Montserrat', sans-serif;
     font-size: 15px;
     background: #ffd429;
     color: var(--black);
